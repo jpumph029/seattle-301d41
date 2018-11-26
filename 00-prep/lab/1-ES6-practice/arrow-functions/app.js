@@ -131,7 +131,7 @@ console.log(objectLit());
 //   return [sum, product];
 // };
 
-let sumAndProduct = (a,b) => {let sum = a+b; let product = a*b; return [sum, product];};
+let sumAndProduct = (a,b) => {let sum = a+b; let product = a*b; [sum, product];};
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sumAndProduct(3, 9));
 
@@ -140,7 +140,7 @@ console.log(sumAndProduct(3, 9));
 //   return `Hello, ${name}!`;
 // };
 
-let message = (name) => {return `Hello, ${name}!`};
+let message = (name) => `Hello, ${name}!`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(message('Allie'));
@@ -161,13 +161,15 @@ let joe = new Student('Joe', 'Schmoe', 100);
 console.log(joe);
 
 
-Student.prototype.greeting = function() {
-  return `Hi, my name is ${this.name}`;
-};
+// Student.prototype.greeting = function() {
+//   return `Hi, my name is ${this.name}`;
+// };
+
+Student.prototype.greeting = () => `Hi, my name is ${joe.name}`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this method to break!
-// console.log(joe.greeting());
+console.log(joe.greeting());
 
 
 Student.courseName = function() {
