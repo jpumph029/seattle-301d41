@@ -140,7 +140,7 @@ console.log(sumAndProduct(3, 9));
 //   return `Hello, ${name}!`;
 // };
 
-
+let message = (name) => {return `Hello, ${name}!`};
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(message('Allie'));
