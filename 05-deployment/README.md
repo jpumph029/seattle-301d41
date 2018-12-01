@@ -21,7 +21,7 @@ As a result of completing lecture 5 of Code 301, students will:
 * Handling multiple requests from clients
 * Sending data back in multiple formats
 
-## Deployments
+## Deployment
 * Historically: FTP and direct server access, uploading changes immediately and directly
   * In many smaller shops, this is still the way!
 * Deployment: Moving code from development into a production environment
