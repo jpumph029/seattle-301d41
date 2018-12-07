@@ -1,0 +1,109 @@
+html {
+  margin: 10%;
+}
+section {
+  width: 100%;
+}
+
+/* div {
+  display: block;
+  height: 300px;
+  padding: 100px;
+  width: 480px;
+} */
+div#a {
+  height: 75px;
+  width: 100%;
+}
+div#b {
+  height: 150px;
+  width: 100%;
+}
+div#c {
+  height: 125px;
+  width: 100%;
+  clear: left;
+}
+div#d {
+  height: 125px;
+  width: 100%;
+}
+div#e {
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+div#f {
+  width: 50%;
+  height: 250px;
+  float: right;
+
+}
+div#g {
+  width: 50%;
+  height: 250px;
+  float: left;
+  clear:left;
+}
+div#h {
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+div#i {
+  width: 100%;
+  height: 80px;
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  /* desktopview */ 
+  div#a { 
+    height: 100px;
+    width: 100%;
+  }
+  div#b {
+    height: 600px;
+    width: 20.8%;
+    float: left;
+  }
+  div#c {
+    height: 200px;
+    width: 39.6%;
+    float: left;
+    clear: right;
+  }
+  div#d {
+    height: 200px;
+    width: 39.6%;
+    float: left;
+    
+  }
+  div#e {
+    width: 19.8%;
+    height: 250px; 
+    background: blueviolet;
+  }
+  div#f {
+    width: 19.8%;
+    height: 250px;
+    float: left;
+    
+  }
+  div#g {
+    width: 19.8%;;
+    height: 250px;
+    clear: right;
+  }
+  div#h {
+    width: 19.8%;
+    height: 250px;
+    float: left;
+  }
+  div#i {
+    width: 79.2%;
+    height: 150px;
+    clear: none;
+    float: right;
+  }
+}
