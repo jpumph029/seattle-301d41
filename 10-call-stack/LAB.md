@@ -8,7 +8,7 @@
 - If you find a bug in the code, make a note but proceed as if the code were fully functional.
 - Plan to spend approximately two hours on one partners' `server.js` code, then switch roles.
 - When you are reviewing your own code:
-  - You are in charge of drawing a single WRRC diagram of the pieces involved. Your diagram must include the following terms: request, response, client, query, server, database, model, view, controller, port.
+  - You are in charge of drawing a single WRRC diagram of the pieces involved. Your diagram must include the following terms: request, response, client, query, server, database, model (your data), view (your html), and port.
   - Indicate the line(s) of code from your `server.js` file that corresponds to each portion of the diagram.
 - When you are reviewing your partner's code:
   - You are in charge of tracing the order in which the code is executed. Write notes, numbering the steps, on the printed-out `server.js` file.
