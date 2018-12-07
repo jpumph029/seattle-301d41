@@ -4,18 +4,6 @@
 
 Today we are going to be adding a persistence layer in the form of a SQL database. Relevant data from each API response will be stored in a database, with one table per API.
 
-## Daily Plan
-
-- Warm-up exercise
-- Review code challenges
-- Introduction of today's code challenge topic
-- Code review of lab assignment
-- Relational vs. non-relational databases
-- Data modeling and schemas
-- Primary keys and foreign keys
-- Code Demo
-- Lab Preview
-
 ## Learning Objectives
 
 As a result of completing Lecture 8 of Code 301, students will:
